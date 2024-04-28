@@ -74,3 +74,9 @@ public class CalcClient {
             e.printStackTrace(System.out);
         }
     }
+        static float getFloat(String number) throws Exception {
+        out.print(number + ": ");
+        return Float.parseFloat(br.readLine());
+    }
+}
+
